@@ -43,3 +43,40 @@ section {
 header img {
     width: 150px;
 }
+
+.sec3 {
+    background: url(https://images.wallpaperscraft.com/image/forest_trees_fog_110131_1920x1080.jpg);
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
